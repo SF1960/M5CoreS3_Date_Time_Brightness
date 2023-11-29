@@ -24,4 +24,4 @@ Using the M5 Core S3 to obtain ntp server date and time and display on the LCD s
 ## Help
 
 Please email sgfpcb@gmail.com with questions and suggestions.
-This [github page]([https://github.com/SF1960/M5CoreS3_Date_Time_Brightness.git])
+This [github page](https://github.com/SF1960/M5CoreS3_Date_Time_Brightness.git)
