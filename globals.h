@@ -7,8 +7,8 @@
 
 // for non ESP32 devices without accees to WiFiManager
 // Wifi credentials. Arrays are undefined length. Ensure both are same length
-//String ssid[] = {"TALKTALKB032AA", "Pixel_7368", "VM3988748"};
-//String pwd[] = {"6RGUAHGP", "hotspot1712", "nr5jfPxrvxmw"};
+//String ssid[] = {"WiFi Name", "Second WiFi Name", "Third WiFi Name"};
+//String pwd[] = {"Password", "Second Password", "Third Password"};
 
 // colour definitions
 #define colorDarkGrey 0x01EA
@@ -32,7 +32,7 @@ String month[12] = {"January","February","March","April","May","June","July","Au
 int width  = 0;                                            // width screen size integers
 int height = 0;                                            // height screen size integers
 
-int batteryLevel = 0;                                      // battery power value
+int batteryLevel = 0;                                      // battery power values
 int batteryCurrent = 0;
 int batteryVoltage = 0;
 
@@ -50,6 +50,7 @@ int PowerToggle = 1;                                       // 1 = Level, 2 = Vol
 
 bool SD_exists = false;                                    // boolean for the presents of an SD card
 
+// The welcome sound waveform
 const uint8_t wav_8bit_44100[46000] = {
 0x80, 0x81, 0x83, 0x84, 0x84, 0x83, 0x82, 0x83, 0x84, 0x83, 0x82, 0x82, 0x83, 0x82, 0x82, 0x86,
 0x88, 0x89, 0x89, 0x89, 0x87, 0x85, 0x84, 0x84, 0x84, 0x85, 0x88, 0x8d, 0x92, 0x92, 0x90, 0x8e,
