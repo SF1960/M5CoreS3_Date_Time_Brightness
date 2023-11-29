@@ -6,8 +6,12 @@ Touch screen to vary the screen's brightness.
 ```
 1. Obtain code by using one of the GitHub download options
 2. Open the Arduino IDE and load the code
-3. Change your WiFi credentials in globals.h (the SSID and PWD variables)
-4. Upload the code.
+3. Send the code to the M5
+4. The unit will start and display the WiFi connect message
+5. Using a mobile or PC choose Select_WiFi from the list of WiFi networks
+6. A webpage will open listing available networks
+7. Select your WiFi network and enter your password
+8. The device will connect and obtain the time and date from the ntp server
 ```
 
 ## Operation
